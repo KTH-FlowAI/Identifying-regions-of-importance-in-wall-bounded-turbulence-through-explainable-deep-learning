@@ -1,0 +1,16 @@
+Title: Identifying regions of importance in wall-bounded turbulence through explainable deep learning
+
+Authors: A. Cremades (1,2), S. Hoyas (3), R. Deshpande (4), P. Quintero (2), M. Lellep (5), J. Lee (4), J. P. Monty (4), N. Hutchins (4), M. Linkmann (6), I. Marusic (4) and R. Vinuesa (1)
+
+Affiliation: 
+
+- (1) FLOW, Engineering Mechanics, KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden
+- (2) CMT-Motores Térmicos, Universitat Politècnica de València, Camino de Vera s/n, Valencia, 46022, Spain
+- (3) Instituto Universitario de Matemática Pura y Aplicada, Universitat Politècnica de València, 46022 Valencia, Spain
+- (4) Department of Mechanical Engineering, University of Melbourne, Parkville, VIC 3010, Australia
+- (5) SUPA, School of Physics and Astronomy, The University of Edinburgh, James Clerk Maxwell Building, Peter Guthrie Tait Road, Edinburgh EH9 3FD, UK
+- (6) School of Mathematics and Maxwell Institute for Mathematical Sciences, University of Edinburgh, Edinburgh EH9 3FD, UK
+
+Abstract:
+
+Despite its great scientific and technological importance, wall-bounded turbulence is an unresolved problem in classical physics that requires new perspectives to be tackled. One of the key strategies has been to study interactions among the energy-containing coherent structures in the flow. Such interactions are explored in this study for the first time using an explainable deep-learning method. The instantaneous velocity field  obtained from a turbulent channel flow simulation is used to predict the velocity field in time through a  U-net architecture.  Based on the predicted flow, we assess the importance of each structure for this prediction using the game-theoretic algorithm of SHapley Additive exPlanations (SHAP). This work provides results in agreement with previous observations in the literature and extends them by revealing that the most important structures in the flow are not necessarily the ones with the highest contribution to the Reynolds shear stress. We also apply the method to an experimental database, where we can identify completely new structures based on their importance score. This framework has the potential to shed light on numerous fundamental phenomena of wall-bounded turbulence, including novel strategies for flow control.
