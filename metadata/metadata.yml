@@ -1,0 +1,63 @@
+metadata_version: 1
+name: Identifying regions of importance in wall-bounded turbulence through explainable
+  deep learning
+description: Despite its great scientific and technological importance, wall-bounded
+  turbulence is an unresolved problem in classical physics that requires new perspectives
+  to be tackled. One of the key strategies has been to study interactions among the
+  energy-containing coherent structures in the flow. Such interactions are explored
+  in this study for the first time using an explainable deep-learning method. The
+  instantaneous velocity field  obtained from a turbulent channel flow simulation
+  is used to predict the velocity field in time through a  U-net architecture.  Based
+  on the predicted flow, we assess the importance of each structure for this prediction
+  using the game-theoretic algorithm of SHapley Additive exPlanations (SHAP). This
+  work provides results in agreement with previous observations in the literature
+  and extends them by revealing that the most important structures in the flow are
+  not necessarily the ones with the highest contribution to the Reynolds shear stress.
+  We also apply the method to an experimental database, where we can identify completely
+  new structures based on their importance score. This framework has the potential
+  to shed light on numerous fundamental phenomena of wall-bounded turbulence, including
+  novel strategies for flow control.
+tags:
+- Turbulence
+- Deep learning
+- Machine learning
+- Shapley values
+- Explainability
+- Coherent structures
+authors:
+- name: A. Cremades
+  affiliations:
+  - name: KTH Royal Institute of Technology
+- name: S. Hoyas
+  affiliations:
+  - name: UPV
+- name: R. Deshpande
+  affiliations:
+  - name: University of Melbourne
+- name: P. Quintero
+  affiliations:
+  - name: UPV
+- name: M. Lellep
+  affiliations:
+  - name: University of Edinburgh
+- name: J. Lee
+  affiliations:
+  - name: University of Melbourne
+- name: J. P. Monty
+  affiliations:
+  - name: University of Melbourne
+- name: N. Hutchins
+  affiliations:
+  - name: University of Melbourne
+- name: M. Linkmann
+  affiliations:
+  - name: University of Edinburgh
+- name: I. Marusic
+  affiliations:
+  - name: University of Melbourne
+- name: R. Vinuesa
+  affiliations:
+  - name: KTH Royal Institute of Technology
+corresponding_contributor:
+  name: A. Cremades
+  email: andrescb@kth.se
